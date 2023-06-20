@@ -1,1 +1,3 @@
-//your JS code here. If required.
+var x = window.innerWidth;
+var y = window.innerHeight;
+document.getElementById("size").innerHTML = "Width: " + x + " and " + "Height: " + y;
